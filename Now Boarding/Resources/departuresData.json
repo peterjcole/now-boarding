@@ -1,0 +1,182 @@
+[
+    {
+        "id": "MzczMDY0T1JQTkdUTl8",
+        "platform": "2",
+        "std": "16:31",
+        "etd": "16:31",
+        "destinationEta": "16:57",
+        "destinationSta": "16:57",
+        "origin": {
+            "name": "Hastings"
+        },
+        "destination": {
+            "name": "London Charing Cross"
+        },
+        "formation": {
+            "numCoaches": 12,
+            "avgLoading": 16
+        }
+    },
+    {
+        "id": "MzcwMzc2T1JQTkdUTl8",
+        "platform": "2",
+        "std": "16:40",
+        "etd": "16:42",
+        "destinationEta": "17:05",
+        "destinationSta": "17:05",
+        "origin": {
+            "name": "Tunbridge Wells"
+        },
+        "destination": {
+            "name": "London Charing Cross"
+        },
+        "formation": {
+            "numCoaches": 10,
+            "avgLoading": null
+        }
+    },
+    {
+        "id": "MzcwMjAyT1JQTkdUTl8",
+        "platform": "4",
+        "std": "16:50",
+        "etd": "16:50",
+        "destinationEta": "17:30",
+        "destinationSta": "17:30",
+        "origin": {
+            "name": "Sevenoaks"
+        },
+        "destination": {
+            "name": "London Charing Cross"
+        },
+        "formation": {
+            "numCoaches": 10,
+            "avgLoading": null
+        }
+    },
+    {
+        "id": "MzcwMzgyT1JQTkdUTl8",
+        "platform": "2",
+        "std": "17:10",
+        "etd": "17:10",
+        "destinationEta": "17:36",
+        "destinationSta": "17:36",
+        "origin": {
+            "name": "Tunbridge Wells"
+        },
+        "destination": {
+            "name": "London Charing Cross"
+        },
+        "formation": {
+            "numCoaches": 10,
+            "avgLoading": null
+        }
+    },
+    {
+        "id": "MzcwMjA1T1JQTkdUTl8",
+        "platform": "4",
+        "std": "17:21",
+        "etd": "17:21",
+        "destinationEta": "18:00",
+        "destinationSta": "18:00",
+        "origin": {
+            "name": "Sevenoaks"
+        },
+        "destination": {
+            "name": "London Charing Cross"
+        },
+        "formation": {
+            "numCoaches": 10,
+            "avgLoading": null
+        }
+    },
+    {
+        "id": "MzczMDcxT1JQTkdUTl8",
+        "platform": null,
+        "std": "17:31",
+        "etd": "17:31",
+        "destinationEta": "17:58",
+        "destinationSta": "17:58",
+        "origin": {
+            "name": "Hastings"
+        },
+        "destination": {
+            "name": "London Charing Cross"
+        },
+        "formation": {
+            "numCoaches": 12,
+            "avgLoading": 17
+        }
+    },
+    {
+        "id": "MzcwMzg3T1JQTkdUTl8",
+        "platform": null,
+        "std": "17:39",
+        "etd": "17:39",
+        "destinationEta": "18:05",
+        "destinationSta": "18:05",
+        "origin": {
+            "name": "Tunbridge Wells"
+        },
+        "destination": {
+            "name": "London Charing Cross"
+        },
+        "formation": {
+            "numCoaches": 10,
+            "avgLoading": null
+        }
+    },
+    {
+        "id": "MzcwMjA4T1JQTkdUTl8",
+        "platform": null,
+        "std": "17:51",
+        "etd": "17:51",
+        "destinationEta": "18:30",
+        "destinationSta": "18:30",
+        "origin": {
+            "name": "Sevenoaks"
+        },
+        "destination": {
+            "name": "London Charing Cross"
+        },
+        "formation": {
+            "numCoaches": 10,
+            "avgLoading": 9
+        }
+    },
+    {
+        "id": "MzczMDc2T1JQTkdUTl8",
+        "platform": null,
+        "std": "18:03",
+        "etd": "18:03",
+        "destinationEta": "18:28",
+        "destinationSta": "18:28",
+        "origin": {
+            "name": "Hastings"
+        },
+        "destination": {
+            "name": "London Charing Cross"
+        },
+        "formation": {
+            "numCoaches": 8,
+            "avgLoading": 29
+        }
+    },
+    {
+        "id": "MzcwMzkxT1JQTkdUTl8",
+        "platform": null,
+        "std": "18:09",
+        "etd": "18:09",
+        "destinationEta": "18:35",
+        "destinationSta": "18:35",
+        "origin": {
+            "name": "Tunbridge Wells"
+        },
+        "destination": {
+            "name": "London Charing Cross"
+        },
+        "formation": {
+            "numCoaches": 10,
+            "avgLoading": null
+        }
+    }
+]

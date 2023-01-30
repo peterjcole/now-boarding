@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct Now_BoardingApp: App {
+    @StateObject private var modelData = ModelData()
+    
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {

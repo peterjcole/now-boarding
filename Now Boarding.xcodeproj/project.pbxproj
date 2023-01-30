@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2A13A22298823FD00D23A20 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A13A21298823FD00D23A20 /* Config.swift */; };
 		B2C066572981933400BD5DBA /* Now_BoardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C066562981933400BD5DBA /* Now_BoardingApp.swift */; };
 		B2C066592981933400BD5DBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C066582981933400BD5DBA /* ContentView.swift */; };
 		B2C0665B2981933600BD5DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C0665A2981933600BD5DBA /* Assets.xcassets */; };
 		B2C0665E2981933600BD5DBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C0665D2981933600BD5DBA /* Preview Assets.xcassets */; };
 		B2C066602981933600BD5DBA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0665F2981933600BD5DBA /* Persistence.swift */; };
 		B2C066632981933600BD5DBA /* Now_Boarding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2C066612981933600BD5DBA /* Now_Boarding.xcdatamodeld */; };
+		B2C066712984171800BD5DBA /* departuresData.json in Resources */ = {isa = PBXBuildFile; fileRef = B2C066702984171800BD5DBA /* departuresData.json */; };
+		B2C066732984175700BD5DBA /* DeparturesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C066722984175700BD5DBA /* DeparturesService.swift */; };
+		B2C066752984190B00BD5DBA /* Model Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C066742984190B00BD5DBA /* Model Data.swift */; };
+		B2C0667929841A7000BD5DBA /* DeparturesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0667829841A7000BD5DBA /* DeparturesRow.swift */; };
+		B2C0667B298424A300BD5DBA /* DepartureList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0667A298424A300BD5DBA /* DepartureList.swift */; };
+		B2C0667D29842A1500BD5DBA /* DepartureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0667C29842A1500BD5DBA /* DepartureDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2A13A21298823FD00D23A20 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B2C066532981933400BD5DBA /* Now Boarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Now Boarding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C066562981933400BD5DBA /* Now_BoardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Now_BoardingApp.swift; sourceTree = "<group>"; };
 		B2C066582981933400BD5DBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +31,12 @@
 		B2C0665D2981933600BD5DBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2C0665F2981933600BD5DBA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B2C066622981933600BD5DBA /* Now_Boarding.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Now_Boarding.xcdatamodel; sourceTree = "<group>"; };
+		B2C066702984171800BD5DBA /* departuresData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = departuresData.json; sourceTree = "<group>"; };
+		B2C066722984175700BD5DBA /* DeparturesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeparturesService.swift; path = "Now Boarding/Model/DeparturesService.swift"; sourceTree = SOURCE_ROOT; };
+		B2C066742984190B00BD5DBA /* Model Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model Data.swift"; sourceTree = "<group>"; };
+		B2C0667829841A7000BD5DBA /* DeparturesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeparturesRow.swift; sourceTree = "<group>"; };
+		B2C0667A298424A300BD5DBA /* DepartureList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureList.swift; sourceTree = "<group>"; };
+		B2C0667C29842A1500BD5DBA /* DepartureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2A13A232988249900D23A20 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		B2C0664A2981933400BD5DBA = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +76,10 @@
 		B2C066552981933400BD5DBA /* Now Boarding */ = {
 			isa = PBXGroup;
 			children = (
+				B2C0667729841A3000BD5DBA /* Model */,
+				B2C06676298419F100BD5DBA /* Views */,
+				B2C0666F29840FF200BD5DBA /* Resources */,
 				B2C066562981933400BD5DBA /* Now_BoardingApp.swift */,
-				B2C066582981933400BD5DBA /* ContentView.swift */,
 				B2C0665A2981933600BD5DBA /* Assets.xcassets */,
 				B2C0665F2981933600BD5DBA /* Persistence.swift */,
 				B2C066612981933600BD5DBA /* Now_Boarding.xcdatamodeld */,
@@ -71,6 +94,36 @@
 				B2C0665D2981933600BD5DBA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2C0666F29840FF200BD5DBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2C066702984171800BD5DBA /* departuresData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2C06676298419F100BD5DBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2A13A232988249900D23A20 /* Config */,
+				B2C066582981933400BD5DBA /* ContentView.swift */,
+				B2C0667C29842A1500BD5DBA /* DepartureDetailView.swift */,
+				B2C0667829841A7000BD5DBA /* DeparturesRow.swift */,
+				B2C0667A298424A300BD5DBA /* DepartureList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2C0667729841A3000BD5DBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2C066722984175700BD5DBA /* DeparturesService.swift */,
+				B2C066742984190B00BD5DBA /* Model Data.swift */,
+				B2A13A21298823FD00D23A20 /* Config.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +186,7 @@
 			files = (
 				B2C0665E2981933600BD5DBA /* Preview Assets.xcassets in Resources */,
 				B2C0665B2981933600BD5DBA /* Assets.xcassets in Resources */,
+				B2C066712984171800BD5DBA /* departuresData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +199,13 @@
 			files = (
 				B2C066602981933600BD5DBA /* Persistence.swift in Sources */,
 				B2C066592981933400BD5DBA /* ContentView.swift in Sources */,
+				B2C066732984175700BD5DBA /* DeparturesService.swift in Sources */,
+				B2C0667B298424A300BD5DBA /* DepartureList.swift in Sources */,
+				B2C0667D29842A1500BD5DBA /* DepartureDetailView.swift in Sources */,
 				B2C066632981933600BD5DBA /* Now_Boarding.xcdatamodeld in Sources */,
+				B2C066752984190B00BD5DBA /* Model Data.swift in Sources */,
+				B2C0667929841A7000BD5DBA /* DeparturesRow.swift in Sources */,
+				B2A13A22298823FD00D23A20 /* Config.swift in Sources */,
 				B2C066572981933400BD5DBA /* Now_BoardingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
