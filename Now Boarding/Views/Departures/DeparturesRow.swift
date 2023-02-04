@@ -13,7 +13,7 @@ struct DeparturesRow: View {
     var body: some View {
         HStack {
             Text(departuresService.etd ?? "nope")
-                .font(.title)
+                .font(.title2)
             Spacer()
             VStack {
                 Text("Platform " + (departuresService.platform ?? "-"))

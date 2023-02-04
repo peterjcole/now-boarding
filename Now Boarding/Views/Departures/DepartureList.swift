@@ -9,18 +9,19 @@ import SwiftUI
 
 struct DepartureList: View {
     @EnvironmentObject var modelData: ModelData
+    @State private var showingConfig = false
     
     var body: some View {
-        NavigationView {
-            List(modelData.departuresServices) { departuresService in
-                NavigationLink {
-                    DepartureDetailView(departuresService: departuresService)
-                } label: {
-                    DeparturesRow(departuresService: departuresService)
-                    
-                }
+        List(modelData.departuresServices) { departuresService in
+            NavigationLink {
+                DepartureDetailView(departuresService: departuresService)
+            } label: {
+                DeparturesRow(departuresService: departuresService)
+                
             }
-        }.navigationTitle("Departures")
+        }
+        .navigationTitle("Departures")
+        
     }
 }
 
@@ -31,7 +32,7 @@ struct DepartureList_Previews: PreviewProvider {
                 .environmentObject(ModelData())
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
-    
+            
         }
     }
 }

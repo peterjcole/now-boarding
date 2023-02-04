@@ -9,8 +9,21 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @EnvironmentObject var modelData: ModelData
+    @State private var showingConfig = false
+    
     var body: some View {
         DepartureList()
+            .toolbar {
+                Button {
+                    showingConfig.toggle()
+                } label: {
+                    Label("Configure", systemImage: "gearshape.fill")
+                }
+            }
+            .sheet(isPresented: $showingConfig) {
+                ConfigHost().environmentObject(modelData)
+            }
     }
 }
 

@@ -11,6 +11,8 @@ import Combine
 
 final class ModelData: ObservableObject {
     @Published var departuresServices: [DeparturesService] = load("departuresData.json")
+    
+    @Published var config = Config.default
 }
 
 func load<T: Decodable>(_ filename: String) -> T {
